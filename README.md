@@ -25,9 +25,9 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_tag_bucket_environment"></a> [tag\_bucket\_environment](#input\_tag\_bucket\_environment) | n/a | `string` | n/a | yes |
-| <a name="input_tag_bucket_name"></a> [tag\_bucket\_name](#input\_tag\_bucket\_name) | n/a | `string` | n/a | yes |
-| <a name="input_tag_owner"></a> [tag\_owner](#input\_tag\_owner) | n/a | `string` | n/a | yes |
+| <a name="input_tag_bucket_environment"></a> [tag\_bucket\_environment](#input\_tag\_bucket\_environment) | Environment details | `string` | n/a | yes |
+| <a name="input_tag_bucket_name"></a> [tag\_bucket\_name](#input\_tag\_bucket\_name) | Unique name for the bucket | `string` | n/a | yes |
+| <a name="input_tag_owner"></a> [tag\_owner](#input\_tag\_owner) | E-mail id of the owner | `string` | n/a | yes |
 
 ## Outputs
 
