@@ -2,7 +2,7 @@ pipeline {
     agent any
     tools {
         terraform 'terraform'
-        go 'go'
+        go 'gotool'
     }
     environment {
         GO117MODULE = 'on'
