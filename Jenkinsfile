@@ -17,9 +17,6 @@ pipeline {
         stage('Terratest'){
             steps{
                 sh """
-                go mod init example.com/m
-                go get github.com/gruntwork-io/terratest/modules/terraform
-                go get github.com/stretchr/testify/assert
                 go test
                 """
             }
