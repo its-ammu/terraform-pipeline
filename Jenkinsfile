@@ -2,6 +2,10 @@ pipeline {
     agent any
     tools {
         terraform 'terraform'
+        go 'go'
+    }
+    environment {
+        GO117MODULE = 'on'
     }
     stages{
         stage('Initialize'){
