@@ -33,7 +33,7 @@ pipeline {
             steps{
                 echo "Applying terraform plan... "
                 sh """
-                terraform apply -input=false -var -auto-approve tag_bucket_name=terratest-s3-pipeline -var tag_bucket_environment=Training -var tag_owner=arajkumar@presidio.com -lock=false
+                terraform apply -input=false -auto-approve -var tag_bucket_name=terratest-s3-pipeline -var tag_bucket_environment=Training -var tag_owner=arajkumar@presidio.com -lock=false
                 """
             }
         }
